@@ -20,13 +20,8 @@ Some interesting statistics about my activities.
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=offich&theme=nightowl&border_radius=8" />
-  <img src="resources/github-metrics.svg" />
+  <img src="resources/general-metrics.svg" />
 </p>
 
-<!-- <p align="center">
-  <img src="metrics.plugin.languages.details.svg" />
-  <img src="/metrics.plugin.habits.facts.svg" />
-</p> -->
 <p align="center">
-  <img src="resources/metrics.plugin.isocalendar.svg" />
 </p>
