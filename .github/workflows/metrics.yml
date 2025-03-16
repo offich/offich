@@ -24,3 +24,4 @@ jobs:
       - uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.PROFILE_METRICS_TOKEN }}
+          filename: resources/github-metrics.*
