@@ -21,6 +21,7 @@ jobs:
       contents: write
 
     steps:
-      - uses: lowlighter/metrics@3.34
+      - uses: lowlighter/metrics@v3.34
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.PROFILE_METRICS_TOKEN }}
+          filename: resources/github-metrics.*
