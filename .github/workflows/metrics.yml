@@ -33,5 +33,4 @@ jobs:
           filename: resources/metrics.plugin.isocalendar.svg
           token: ${{ secrets.PROFILE_METRICS_TOKEN }}
           committer_branch: ${{ github.ref_name }}
-          base: ""
           plugin_isocalendar: yes
