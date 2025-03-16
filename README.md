@@ -22,7 +22,4 @@ Some interesting statistics about my activities.
   <img src="https://streak-stats.demolab.com?user=offich&theme=nightowl&border_radius=8" />
 </p>
 
-<div style="display: flex;">
-  <img src="resources/general-metrics.svg" />
-  <img src="resources/language-metrics.svg" />
-</div>
+<img align="left" width="390" src="resources/general-metrics.svg" /> <img align="right" width="390" src="resources/language-metrics.svg" />
