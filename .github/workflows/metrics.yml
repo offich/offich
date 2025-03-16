@@ -28,8 +28,15 @@ jobs:
           token: ${{ secrets.PROFILE_METRICS_TOKEN }}
           base: header
           base_indepth: yes
-          config_order: base.header, isocalendar, languages
+          config_order: base.header, isocalendar
           plugin_isocalendar: yes
+
+      - name: Language
+        uses: lowlighter/metrics@latest
+        with:
+          filename: resources/language-metrics.svg
+          token: ${{ secrets.PROFILE_METRICS_TOKEN }}
+          base: ""
           plugin_languages: yes
           plugin_languages_recent_days: 365
           plugin_languages_details: lines, bytes-size, percentage
