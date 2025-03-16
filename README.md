@@ -27,3 +27,6 @@ Some interesting statistics about my activities.
   <img src="metrics.plugin.languages.details.svg" />
   <img src="/metrics.plugin.habits.facts.svg" />
 </p> -->
+<p align="center">
+  <img src="resources/metrics.plugin.isocalendar.svg" />
+</p>
