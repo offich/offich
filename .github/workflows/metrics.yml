@@ -23,4 +23,4 @@ jobs:
     steps:
       - uses: lowlighter/metrics@v3.34
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.PROFILE_METRICS_TOKEN }}
