@@ -25,3 +25,4 @@ jobs:
         with:
           token: ${{ secrets.PROFILE_METRICS_TOKEN }}
           filename: resources/github-metrics.*
+          committer_branch: ${{ github.ref_name }}
